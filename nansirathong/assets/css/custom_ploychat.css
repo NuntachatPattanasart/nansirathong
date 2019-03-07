@@ -1,0 +1,87 @@
+.text-style {
+  font-size: 10px;
+}
+
+.bg-color {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.carousel-indicators {
+  border-radius: 50px !important;
+}
+
+.bg-size {
+  background-size: cover;
+  background-position: center;
+  display: block;
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.text-hero {
+  margin-bottom: 13rem;
+}
+
+.h1-style {
+  font-size: 4rem;
+  background-color: #8989897d;
+
+
+}
+
+.img-size {
+  /* width: 100vw;
+  height: 80vh; */
+  object-fit: cover;
+}
+
+.bg-gray {
+  background-color: #FAFAFA;
+}
+
+.product-top {
+  margin-top: 5rem;
+}
+
+.bg-product-one {
+  background-image: url("../../images/1.JPG");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 70vh;
+}
+
+.text-custom {
+  font-size: 5rem;
+  top: 13rem;
+}
+
+.text-service {
+  top: -3rem;
+}
+
+.service {
+  background-color: #F4F4F4;
+}
+
+.logo-size {
+  width: 20%;
+}
+
+.hero-row-top {
+  top: 13rem;
+  left: 33rem;
+
+}
+
+.border-style {
+  border-radius: 7px;
+}
