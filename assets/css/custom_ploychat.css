@@ -1,3 +1,7 @@
+body {
+  color: #4D4F5C !important;
+}
+
 .text-style {
   font-size: 10px;
 }
@@ -84,4 +88,63 @@
 
 .border-style {
   border-radius: 7px;
+}
+.product_list .card {
+  border-radius: 20px;
+}
+.product_list .border-img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.product_list .card:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+  background-color: #1F5474;
+
+}
+.product_list a {
+  color: #4D4F5C !important;
+}
+.product_list a:hover {
+  color: #ffffff !important;
+}
+
+.bg-product-1 {
+  background-image: url("../../images/product_1.JPG");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-product-1::before {
+  background: -webkit-linear-gradient(rgba(39, 61, 100, 0), rgba(78, 122, 199, 0.5));
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(39, 61, 100, 0), rgba(78, 122, 199, 0.5));
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(39, 61, 100, 0), rgba(78, 122, 199, 0.5));
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(39, 61, 100, 0), rgba(78, 122, 199, 0.5));
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.btn-warning {
+  color: #4D4F5C;
+}
+.contact .icon-size {
+  font-size: 100px;
+}
+.contact .icon-size-call {
+  font-size: 15px;
+}
+.contact .text-info {
+  color: #1F5474 !important;
+}
+.contact a {
+  color: #4D4F5C;
 }
